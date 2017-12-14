@@ -3,6 +3,5 @@ import ReactDOM from 'react-dom';
 
 import App from './components/app';
 
-ReactDOM.render(
-    <App />
-	, document.querySelector('.container'));
+//inser the "app" into the html "container"
+ReactDOM.render(<App />, document.querySelector('.container'));
